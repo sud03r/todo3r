@@ -1,0 +1,17 @@
+todo3r in qt
+============
+
+current features:
+-----------------
+
+ * Takes a list of files as command line input. If no files are present, then current directory is used.
+ * all files specified are scanned for the appearance of "todo" (case insensitive) in any line. If a line is found, then it is spit out into stdout.
+ * todo3r scans directories recursively.
+
+features to be added in the future:
+-----------------------------------
+
+ * control recursive scanning of directories by a command line switch
+ * specify files that are *not* to be scanned
+ * find "todo" only in comments, not just anywhere
+
